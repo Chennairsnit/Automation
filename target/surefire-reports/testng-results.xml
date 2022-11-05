@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="qumu.RunnerTest" duration-ms="964" started-at="2022-11-05T18:07:53 IST" finished-at="2022-11-05T18:07:54 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="RunnerTest.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:qumu.RunnerTest@3dd4520b]" name="feature" class="qumu.RunnerTest"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="964" started-at="2022-11-05T18:07:53 IST" finished-at="2022-11-05T18:07:54 IST">
+      <class name="qumu.RunnerTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:qumu.RunnerTest@3dd4520b]" name="setUpClass" is-config="true" duration-ms="286" started-at="2022-11-05T18:07:53 IST" finished-at="2022-11-05T18:07:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:qumu.RunnerTest@3dd4520b]" name="feature" duration-ms="297" started-at="2022-11-05T18:07:54 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-11-05T18:07:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[API test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:qumu.RunnerTest@3dd4520b]" name="feature" duration-ms="6" started-at="2022-11-05T18:07:54 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-11-05T18:07:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Qumu  Sample Test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:qumu.RunnerTest@3dd4520b]" name="feature" duration-ms="17" started-at="2022-11-05T18:07:54 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-11-05T18:07:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Checkout items in the basket]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:qumu.RunnerTest@3dd4520b]" name="tearDownClass" is-config="true" duration-ms="158" started-at="2022-11-05T18:07:54 IST" finished-at="2022-11-05T18:07:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- qumu.RunnerTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- qumu.RunnerTest -->
+</testng-results>
