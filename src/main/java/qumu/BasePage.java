@@ -6,5 +6,5 @@ public class BasePage {
     
 	public static WebDriver driver;
 
-	//testing
+	//testings
 }
